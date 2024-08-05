@@ -81,6 +81,10 @@
     align-items: center;
 
 }
+.edad{
+    width: 45%;
+    height: 20px;
+}
 
 .input_register{
     background-color: #8f67cf;

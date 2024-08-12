@@ -186,9 +186,7 @@ Por ejemplo:
 34,567 se convierte en 34K
 7’456,345 se convierte en 7M.
 Si el número es menor a 1000 se debe devolver el mismo número como un string.*/
-
 console.log("ejercicio(5)");
-
 function likes(number) {
     if (number < 1000) {
         return number.toString();

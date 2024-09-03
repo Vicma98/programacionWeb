@@ -8,7 +8,7 @@ export const ButtonsLogin = () => {
             <h3><span>Travel</span>App</h3>
             <div className="buttons">
                 <button className="btn-login" onClick={() => navigate("/login")}>Log in</button>
-                <button className="btn-register">Register</button>
+                <button className="btn-register" onClick={() => navigate("/register")} >Register</button>
             </div>
         </div>
     )
